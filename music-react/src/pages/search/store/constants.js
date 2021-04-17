@@ -1,0 +1,1 @@
+export const CHANGE_SEARCH_RESULT = "search/CHANGE_SEARCH_RESULT"

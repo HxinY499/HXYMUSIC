@@ -1,0 +1,5 @@
+export const CHANGE_LOGIN_USER = "user/CHANGE_LOGIN_USER"
+export const CHANGE_SHOW_USER = "user/CHANGE_SHOW_USER"
+export const CHANGE_LIKE_SONGS = "user/CHANGE_LIKE_SONGS"
+export const CHANGE_FOCUS = "user/CHANGE_FOCUS"
+export const CHANGE_FANS = "user/CHANGE_FANS"

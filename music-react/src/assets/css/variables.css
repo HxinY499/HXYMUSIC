@@ -1,0 +1,25 @@
+:root {
+  --main-bg: #f5f5f5;
+  --panel-bg: #fff;
+  --line: #ccc;
+  --black: #000;
+  --btn-detail: #f1f1f1;
+  --btn-detail-hover: #f9f9f9;
+  --btn-login-black: #242424;
+  --rcm-carousel: #f5f5f5;
+  --table-body1: #f7f7f7;
+  --table-body2: #fff;
+  --ffffff: #ffffff;
+  --fefefe: #fefefe;
+  --fcfcfc: #fcfcfc;
+  --fafafa: #fafafa;
+  --f8f8f8: #f8f8f8;
+  --f6f6f6: #f6f6f6;
+  --f4f4f4: #f4f4f4;
+  --f2f2f2: #f2f2f2;
+  --f0f0f0: #f0f0f0;
+  --ranking-left-hover: #f4f2f2;
+  --ranking-left-active: #e6e6e6;
+  --red: #c20c0c;
+  --font-blue: #0c73c2;
+}

@@ -1,0 +1,1 @@
+console.log(Number.isInteger(Number.MAX_VALUE))

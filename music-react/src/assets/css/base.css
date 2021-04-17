@@ -1,0 +1,276 @@
+@import "~normalize.css";
+
+html {
+  font-size: 1em;
+}
+/* 样式的重置 */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+/* 全局样式 */
+body,
+textarea,
+select,
+input,
+button {
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.inline-text-nowrap {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.wrap-v1 {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.wrap-v2 {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.sprite_01 {
+  background: url(../img/sprite_01.png) no-repeat 0 9999px;
+}
+
+.sprite_02 {
+  background: url(../img/sprite_02.png) no-repeat 0 9999px;
+}
+
+.sprite_covor {
+  background: url(../img/sprite_cover.png) no-repeat 0 9999px;
+}
+
+.sprite_icon {
+  background: url(../img/sprite_icon.png) no-repeat 0 9999px;
+}
+
+.sprite_icon2 {
+  background: url(../img/sprite_icon2.png) no-repeat 0 9999px;
+}
+
+.sprite_button {
+  background: url(../img/sprite_button.png) no-repeat 0 9999px;
+}
+
+.sprite_button2 {
+  background: url(../img/sprite_button2.png) no-repeat 0 9999px;
+}
+
+.sprite_table {
+  background: url(../img/sprite_table.png) no-repeat 0 9999px;
+}
+.footer-right-link {
+  background-image: url(../img/sprite_footer_02.png);
+}
+.footer-right-title {
+  background-image: url(../img/sprite_footer_01.png);
+}
+.image_cover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-indent: -9999px;
+  background: url(../img/sprite_cover.png) no-repeat -145px -57px;
+}
+
+.sprite_playbar {
+  background: url(../img/playbar_sprite.png) no-repeat 0 9999px;
+}
+
+/* 文字不可选中 */
+.select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 歌词全局框 */
+.lyric-message {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ant-message-notice-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* 全局提示框 */
+.err-message div {
+  background-color: #fff;
+  color: #ff4d4f;
+}
+.suc-message div {
+  background-color: #fff;
+  color: #52c41a;
+}
+
+.warn-message div {
+  background-color: #fff;
+  color: #faad14;
+}
+/* 登录注册模态框 */
+.login-modal .ant-modal-footer {
+  display: none;
+}
+.mine-modal .ant-modal-header {
+  background-color: #242424;
+}
+.ant-modal-body {
+  background-color: var(--panel-bg);
+}
+.ant-modal-title {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+}
+.ant-modal-close-x {
+  color: #fff;
+  transition: 0.3s;
+}
+.ant-modal-close-x:hover {
+  transform: rotateZ(90deg);
+}
+.ant-modal-footer button:nth-child(1) {
+  background: #fff;
+  color: var(--btn-login-black);
+  border: 1px solid var(--btn-login-black);
+  width: 100px;
+}
+.ant-modal-footer button:nth-child(2) {
+  background: var(--btn-login-black);
+  border: 1px solid var(--btn-login-black);
+  color: #fff;
+  width: 100px;
+}
+
+/* 注册登录表单 */
+.ant-form-item-control-input-content .register {
+  border: none;
+  width: 100px;
+  background-color: var(--btn-login-black);
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 50px;
+}
+
+.returnLogin,
+.returnLogin:hover {
+  border: 1px solid var(--btn-login-black);
+  width: 100px;
+  background-color: #fff;
+}
+#register_agreement:hover {
+  border: none;
+}
+.login-form-button {
+  background: var(--btn-login-black) !important;
+  color: #fff !important;
+  border: none !important;
+  margin-right: 10px;
+  width: 100px;
+}
+.goRegister {
+  color: #40a9ff;
+  cursor: pointer;
+}
+.ant-popover-title {
+  display: none;
+}
+.ant-form-item-required {
+  color: var(--black) !important;
+}
+
+/* 页脚联系我图标弹出框 */
+.call {
+  width: 200px;
+}
+/* 全局加载图标 */
+.main-load {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
