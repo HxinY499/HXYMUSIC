@@ -1,10 +1,13 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
-  
   transition: all 0.2s;
   background-color: var(--main-bg);
-  .main-button{
+  height: 100%;
+  #route-container {
+    min-height: calc(100vh - 320px);
+  }
+  .main-button {
     height: 40px;
     width: 40px;
     position: fixed;
@@ -19,16 +22,16 @@ export const AppWrapper = styled.div`
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
     cursor: pointer;
   }
-  .show-playBar{
+  .show-playBar {
     position: fixed;
     z-index: 99;
-    bottom:-53px;
+    bottom: -53px;
     left: 0;
     right: 0;
     opacity: 0;
     transition: all 0.3s;
   }
-  #show-playBar-active{
+  #show-playBar-active {
     opacity: 1;
     bottom: 0;
   }
@@ -39,10 +42,10 @@ export const AppWrapper = styled.div`
   .switch-playbar {
     bottom: 100px;
   }
-  .theme{
+  .theme {
     bottom: 150px;
   }
-  .marin-load{
+  .marin-load {
     font-size: 50em;
     width: 60em;
     margin: 10em auto;
@@ -71,5 +74,4 @@ export const AppWrapper = styled.div`
     transform: scale(0.8);
     transition: opacity 300ms, transform 300ms;
   }
-
-`
+`;
